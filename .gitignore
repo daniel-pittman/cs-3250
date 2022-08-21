@@ -6,8 +6,28 @@
 *.log
 data/
 
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### IntelliJ IDEA ###
 .idea
+*.iws
 *.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
 
 *.class
 !resources/**/*.class
@@ -17,12 +37,18 @@ bin/
 tmp/
 *.tmp
 *.bak
-*.swp
 *~.nib
 local.properties
 .settings/
 .loadpath
 .recommenders
+
+### STS ###
+.apt_generated
+.classpath
+.project
+.settings
+.sts4-cache
 
 # External tool builders
 .externalToolBuilders/
